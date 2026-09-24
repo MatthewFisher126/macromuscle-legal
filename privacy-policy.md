@@ -1,14 +1,12 @@
----
-title: MacroMuscle Privacy Policy
----
-
 # MacroMuscle Privacy Policy
 
-**Effective date:** June 11, 2026
+**Effective date:** September 24, 2026
 
 MacroMuscle is an iOS workout and nutrition tracking app developed by Matt Fisher
 ("we", "us"). This policy explains what data the app handles and what happens to it.
-The short version: **your data stays on your device.**
+The short version: **your data stays on your device**, with one optional
+exception — the AI Macro Estimation feature, described below, which you must
+turn on and use deliberately.
 
 ## Data the app stores
 
@@ -40,6 +38,31 @@ can find and fix the bug. Crash reports:
 
 You can read Google's privacy documentation for Crashlytics at
 <https://firebase.google.com/support/privacy>.
+
+### AI Macro Estimation (optional)
+
+MacroMuscle can estimate a food's calories and macros from a photo or a text
+description you provide. This feature is off until you turn it on, and only
+runs when you actively submit a photo or description — nothing is sent
+automatically.
+
+To use it, you enter your own API key for an AI provider you choose:
+**Anthropic, OpenAI, or Google**. When you submit a photo or description,
+it is sent directly from your device to that provider using your key.
+MacroMuscle does not operate any of these services, does not see or store
+the results anywhere but your device, and is not a party to how your
+chosen provider handles the request beyond relaying it. Your API key is
+stored in this device's Keychain, never in backups, and never sent
+anywhere except to the provider you chose as part of your own requests.
+
+This request is **not linked to your identity** — MacroMuscle has no
+accounts, and the request only carries the key you supplied. It is billed
+to your own account with that provider, not to us. Review the privacy
+policy of whichever provider you choose:
+
+- Anthropic: <https://www.anthropic.com/legal/privacy>
+- OpenAI: <https://privacy.openai.com/policies>
+- Google: <https://policies.google.com/privacy>
 
 ### Purchases (Apple)
 
@@ -73,10 +96,12 @@ shared across apps, no data sales, and no third-party tracking SDKs.
 - **Delete** — Settings → Data Management → Clear All Data permanently erases
   everything, or simply delete the app.
 
-## Children
+## Age rating
 
-MacroMuscle is not directed at children under 13, and we do not knowingly
-collect personal information from anyone — including children.
+MacroMuscle is rated 18+ on the App Store and is not directed at, marketed
+to, or intended for use by anyone under 18. We do not knowingly collect
+personal information from anyone under that age, including children under 13
+(the age COPPA specifically protects).
 
 ## Changes to this policy
 
